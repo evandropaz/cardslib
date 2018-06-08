@@ -1,6 +1,6 @@
 # Card Library
-Travis master: [![Build Status](https://travis-ci.org/gabrielemariotti/cardslib.svg?branch=master)](https://travis-ci.org/gabrielemariotti/cardslib)
-Travis dev: [![Build Status](https://travis-ci.org/gabrielemariotti/cardslib.svg?branch=dev)](https://travis-ci.org/gabrielemariotti/cardslib)
+Travis master: [![Build Status](https://travis-ci.org/evandropaz/cardslib.svg?branch=master)](https://travis-ci.org/gabrielemariotti/cardslib)
+Travis dev: [![Build Status](https://travis-ci.org/evandropaz/cardslib.svg?branch=dev)](https://travis-ci.org/gabrielemariotti/cardslib)
 
 
 **Card Library** provides an easy way to display a UI Card using the **Official Google CardView** in your Android app.
@@ -46,22 +46,22 @@ Card Library is pushed to Maven Central as an AAR, so you just need to add the f
 
     dependencies {
         //Core
-        compile 'com.github.gabrielemariotti.cards:cardslib-core:2.1.0'
+        implementation 'com.github.gabrielemariotti.cards:cardslib-core:2.1.0'
         
         //Optional for built-in cards
-        compile 'com.github.gabrielemariotti.cards:cardslib-cards:2.1.0'
+        implementation 'com.github.gabrielemariotti.cards:cardslib-cards:2.1.0'
                 
         //Optional for RecyclerView
-        compile 'com.github.gabrielemariotti.cards:cardslib-recyclerview:2.1.0'
+        implementation 'com.github.gabrielemariotti.cards:cardslib-recyclerview:2.1.0'
           
         //Optional for staggered grid view
-        compile 'com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0'
+        implementation 'com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0'
          
         //Optional for drag and drop
-        compile 'com.github.gabrielemariotti.cards:cardslib-extra-dragdrop:2.1.0'
+        implementation 'com.github.gabrielemariotti.cards:cardslib-extra-dragdrop:2.1.0'
         
         //Optional for twoway  (coming soon)
-        //compile 'com.github.gabrielemariotti.cards:cardslib-extra-twoway:2.1.0'
+        //implementation 'com.github.gabrielemariotti.cards:cardslib-extra-twoway:2.1.0'
         
     }
 
@@ -69,10 +69,10 @@ If you would like to use the last **v1 stable version** you can use:
     
     dependencies {
         //Core card library
-        compile 'com.github.gabrielemariotti.cards:library:1.9.1'
+        implementation 'com.github.gabrielemariotti.cards:library:1.9.1'
 
         //Extra card library, it is required only if you want to use integrations with other libraries
-        compile 'com.github.gabrielemariotti.cards:library-extra:1.9.1'
+        implementation 'com.github.gabrielemariotti.cards:library-extra:1.9.1'
     }
 
 
@@ -80,16 +80,6 @@ If you would like to use the last **v1 stable version** you can use:
 
 * [Changelog:](CHANGELOG.md) A complete changelog
 
-
-Acknowledgements
---------------------
-
-* Thanks to [Roman Nurik][1] for [Android-SwipeToDismiss][2] classes and [UndoBarController][3] classes.
-* Thanks to [Niek Haarman][4] for some ideas and code taken from his [ListViewAnimations][5].
-* Thanks to [Chris Banes][6] for [ForegroundLinearLayout][7] class (See this [post][8] for more info).
-* Thanks to [Taylor Ling][9] for drag and drop icon.
-* Thanks to [Frankie Sardo][10] for some ideas and code taken from his [LinearListView][11]
-* Thanks to Google for code and idea from [Google IO 14][12]
 
 Credits
 -------
